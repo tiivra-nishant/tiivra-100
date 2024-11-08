@@ -1,0 +1,67 @@
+div.fixed-navbar {
+    background: #ececec;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: hidden;
+
+    /*TESTING*/
+    display: block;
+}
+
+div.fixed-navbar-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    gap: 2rem;
+}
+
+img.fixed-navbar-image { 
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding: 0.5rem 2rem;
+}
+
+ul.fixed-navbar-items {
+    list-style-type: none;
+    text-align: left;
+    align-self: flex-start;
+    line-height: 1.6;
+    margin-left: 2rem;
+}
+
+a.fixed-navbar-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+a.fixed-navbar-link span {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 10px;
+    letter-spacing: 1px;
+    background: #ffffff;
+    padding: 1px 3px;
+    color: #666;
+    margin-left: 0.8rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a.fixed-navbar-link:hover {
+    opacity: 0.6;
+    transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 400px) {
+    div.fixed-navbar {
+        display: none;
+    }
+}

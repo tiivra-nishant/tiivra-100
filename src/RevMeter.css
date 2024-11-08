@@ -1,0 +1,41 @@
+div.rev-meter-section {
+    background: black;
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin: 2rem auto;
+
+    /*TESTING*/
+    display: none;
+}
+
+div.rev-meter-parent {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    background: transparent;
+    margin: auto;
+    border: 2px solid white;
+}
+
+div.rev-meter-child {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin: 8px auto;
+    background: transparent;
+    border: 2px solid red;
+}
+
+div.rev-meter-pointer {
+    width: 280px;
+    height: 1rem;
+    display: block;
+    transform: rotate(30deg);
+    background: blue;
+    margin: auto;
+
+    /*TESTING*/
+    display: none;
+}
